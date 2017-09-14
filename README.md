@@ -2,7 +2,7 @@
 require a blank line before blocks in classes
 
 .eslintrc
-```
+```javascript
   "plugins": [
     ...,
     "blank-line"
