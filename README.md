@@ -3,15 +3,21 @@ require a blank line before blocks in classes
 
 .eslintrc
 ```javascript
+{
+  ...,
   "plugins": [
     ...,
-    "blank-line"
+    "blank-line",
+    ...
   ],
   ...,
   rules: [
     ...,
-    "blank-line/blank-line": "error"
-  ]
+    "blank-line/blank-line": "error",
+    ...
+  ],
+  ...
+ }
 ```
 
 the following code
@@ -46,7 +52,7 @@ class A {
   }
 }
 ```
-will be fixed to
+will be fixed to (eslint --fix)
 ```javascript
 const a = 1;
 const b = 2; // comment 1
