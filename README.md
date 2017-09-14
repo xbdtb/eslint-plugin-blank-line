@@ -17,6 +17,15 @@ require a blank line before blocks in classes
 the following code
 
 ```
+const a = 1;
+const b = 2; // comment 1
+// coment 2
+function f1() {
+  console.log('');
+}
+function f2() {
+  console.log('');
+}
 class A {
   constructor() {
   }
@@ -39,6 +48,18 @@ class A {
 ```
 will be fixed to
 ```
+const a = 1;
+const b = 2; // comment 1
+
+// coment 2
+function f1() {
+  console.log('');
+}
+
+function f2() {
+  console.log('');
+}
+
 class A {
   constructor() {
   }
