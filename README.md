@@ -16,7 +16,7 @@ require a blank line before blocks in classes
 
 the following code
 
-```
+```javascript
 const a = 1;
 const b = 2; // comment 1
 // coment 2
@@ -47,7 +47,7 @@ class A {
 }
 ```
 will be fixed to
-```
+```javascript
 const a = 1;
 const b = 2; // comment 1
 
