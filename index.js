@@ -2,6 +2,6 @@
 
 module.exports = {
   rules: {
-    'newline-before-func': require('./lib/newline-before-func')
+    'blank-line': require('./lib/blank-line')
   }
 };
