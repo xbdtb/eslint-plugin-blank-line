@@ -1,5 +1,5 @@
 # eslint-plugin-blank-line
-require a blank line before blocks in classes
+require a blank line before code blocks
 
 .eslintrc
 ```javascript
